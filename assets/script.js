@@ -39,8 +39,7 @@ dotNb = document.querySelectorAll(".dot");
 dotNb[0].classList.add("dot_selected");	
 
 arrow_left.addEventListener("click", clicleft);
-
-arrow_right.addEventListener('click', clicright);
+arrow_right.addEventListener("click", clicright);
 
 function clicright() {
 	indice = 0;
